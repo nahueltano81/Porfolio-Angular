@@ -1,0 +1,59 @@
+{
+    "encabezado": {
+        "imgbackground": "assets/Imagenes/fondomusica.jpg"
+    },
+    "fotodeperfil": "assets/Imagenes/IMG-20201211-WA0004.jpg",
+    "instagram": "assets/Imagenes/instagris.png",
+    "linkedin": "assets/Imagenes/link2.png",
+    "acercademi": "Amante de la música y las artes",
+    "nombre": "Nahuel Lopez",
+    "backImage": "assets/Imagenes/APLogo-20-20.png",
+    "experiencia":[
+        {
+            "id":"1",
+            "logo": "assets/Imagenes/TGN.jfif",
+            "empresa": "TGN",
+            "puesto":[
+                {
+                    "nombre": "Programador de Salidas de Servicio",
+                    "periodo": "Agosto-Enero 2022",
+                    "descripcion": "Elaboración y publicación de reportes de salidas de servicio con instrucciones para realizar las intervenciones necesarias sobre el gasoducto, garantizando una operación segura y optima desde el punto de vista técnico y comercial, optimizando los recursos disponibles."
+                },
+                {
+                    "nombre": "Controlador de Gas Sr",
+                    "periodo": "feb 2015 - dic 2021",
+                    "descripcion": "Operación y control en tiempo real, mediante SCADA, del sistema de transporte de gas natural regiones Centro-Norte de la Republica Argentina. Responsable de la operación de todo el sistema"
+                },
+                {
+                    "nombre": "Controlador de Gas Jr",
+                    "periodo": "feb 2010 - dic 2015",
+                    "descripcion": "Operación y control en tiempo real, mediante SCADA, del sistema de transporte de gas natural regiones Centro-Norte de la Republica Argentina. Responsable de la operación de todo el sistema"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "logo": "assets/Imagenes/SMN.jfif",
+            "empresa": "SMN",
+            "puesto": [
+                {
+                    "nombre":"Tecnico Electronico",
+                    "periodo": "dic 2009 - feb 2015",
+                    "descripcion": "Instalación y reparación de instrumental meteorológico, instalación y configuración de Estaciones Meteorológicas Automáticas, calibración y contraste de instrumentos en laboratorio. Instalación y mantenimiento de Generadores de Hidrogeno. El trabajo se realiza mayoritariamente en aeropuertos nacionales a lo largo del país."
+                }
+            ]
+        },
+        {
+            "id":"3",
+            "logo": "assets/Imagenes/COL.jfif",
+            "empresa": "Banco Columbia",
+            "puesto": [
+                {
+                    "nombre": "Ejecutivo de ventas",
+                    "periodo": "ene 2009 - dic 2009",
+                    "descripcion": "Asesoramiento y venta de Préstamos Personales, Seguros, Cajas de Ahorro, Cuentas Corrientes y Tarjetas de crédito. Atención al Cliente, gestión de Mora Temprana y Análisis de Riesgo Crediticio. Captación y constitución de Plazos Fijos."
+                }
+            ]
+        }
+    ]
+}

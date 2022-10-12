@@ -1,0 +1,17 @@
+<div id="experiencia" class="card mat-card">
+    <h4>Experiencia</h4>
+      <div *ngFor="let experiencia of experienciaList" id="1" class="card mat-card">
+        <div class="row">
+          <div class="col-1">
+            <img [src]="experiencia.logo" height=50px width=50px alt="">
+          </div>
+          <div class="col-11">
+            <h5><strong>{{experiencia.empresa}}</strong></h5>
+          <div *ngFor="let puesto of experiencia.puesto" id="puesto1">
+            <h5 >{{puesto.nombre}}</h5><h6>{{puesto.periodo}}</h6>
+            <p>{{puesto.descripcion}}</p>
+          </div>
+          <div>
+        </div>
+      </div>
+</div>

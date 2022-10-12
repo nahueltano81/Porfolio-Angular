@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+.img-thumbnail {
+    padding: 0rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.img-thumbnail2 {
+  padding: 0rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 2px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.margin-top1 {
+  margin-top: 11px;
+}
+.margin-left1 {
+  margin-left: 4px;
+}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+}
+.mat-card {
+  border-radius: 12px;
+  margin: 10px 10px;
+  padding: 20px;
+  border-color: rgb(209, 209, 221);
+}
+.mat-card#header {
+  padding: 0;
+}
+.rounded-top {
+  border-top-left-radius: 12px!important;
+  border-top-right-radius: 12px!important;
+}
+.rounded-bottom {
+  border-bottom-left-radius: 12px!important;
+  border-bottom-right-radius: 12px!important;
+}
+.row {
+  margin: 0px 0px 0px 0px;
+}
+.image2 {
+  position: absolute;
+  top: -130px;
+  left: 30px;
+}
+.bg-primary {
+  background-color: black!important;
+}
+.rounded-left-top {
+  border-top-left-radius: 12px!important;
+}
+.rounded-right-top {
+  border-top-right-radius: 12px!important;
+}
