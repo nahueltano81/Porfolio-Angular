@@ -1,3 +1,17 @@
-<div id="educacion" class="card mat-card">
-    <p>Educacion</p>
+<div id="experiencia" class="card mat-card">
+    <h4 class="padding-r">Educacion</h4>
+      <div *ngFor="let educacion of educacionList" class="mat-card">
+        <div class="row">
+          <div class="col-1">
+            <img [src]="educacion.logo" height=50px width=50px>
+          </div>
+          <div class="col-11">
+            <h5><strong>{{educacion.escuela}}</strong></h5>
+          <div *ngFor="let carrera of educacion.carrera" id="puesto1">
+            <h5 >{{carrera.titulo}}</h5><h6>{{carrera.periodo}}</h6>
+            <p>{{carrera.completa}}</p>
+          </div>
+          <div>
+        </div>
+      </div>
 </div>

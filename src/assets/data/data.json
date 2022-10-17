@@ -10,7 +10,6 @@
     "backImage": "assets/Imagenes/APLogo-20-20.png",
     "experiencia":[
         {
-            "id":"1",
             "logo": "assets/Imagenes/TGN.jfif",
             "empresa": "TGN",
             "puesto":[
@@ -32,7 +31,6 @@
             ]
         },
         {
-            "id":"2",
             "logo": "assets/Imagenes/SMN.jfif",
             "empresa": "SMN",
             "puesto": [
@@ -44,7 +42,6 @@
             ]
         },
         {
-            "id":"3",
             "logo": "assets/Imagenes/COL.jfif",
             "empresa": "Banco Columbia",
             "puesto": [
@@ -54,6 +51,42 @@
                     "descripcion": "Asesoramiento y venta de Préstamos Personales, Seguros, Cajas de Ahorro, Cuentas Corrientes y Tarjetas de crédito. Atención al Cliente, gestión de Mora Temprana y Análisis de Riesgo Crediticio. Captación y constitución de Plazos Fijos."
                 }
             ]
+        }
+    ],
+    "educacion":[
+        {
+            "logo": "assets/Imagenes/nolasco.png",
+            "escuela": "San Pedro Nolasco",
+            "carrera":[
+                {
+                    "titulo": "Primaria",
+                    "periodo": "1995 - 2000",
+                    "completa": "Estudios Completos"
+                }
+            ]
+        },
+        {
+            "logo": "assets/Imagenes/pio.png",
+            "escuela": "Colegio Pio IX",
+            "carrera":[
+                {
+                    "titulo": "Tecnico Electronico",
+                    "periodo": "2000 - 2005",
+                    "completa": "Estudios Incompletos"
+                }
+            ]
+        }
+    ],
+    "skills":[
+        {
+            "simbolo": "assets/Imagenes/Idiomas-Azul.png",
+            "skill": "Ingles",
+            "nivel": "Nivel Adelantado"
+        },
+        {
+            "simbolo": "assets/Imagenes/compu.png",
+            "skill": "Computacion",
+            "nivel": "Nivel Medio"
         }
     ]
 }

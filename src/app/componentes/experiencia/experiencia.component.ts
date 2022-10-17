@@ -14,7 +14,6 @@ experienciaList: any;
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
       this.experienciaList=data.experiencia;
-      console.log(data)
     })
 
   }
