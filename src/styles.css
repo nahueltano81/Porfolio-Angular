@@ -38,6 +38,11 @@
   padding: 20px 20px 20px 0px;
   border-color: rgb(209, 209, 221);
 }
+.mat-card2 {
+  margin: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 0px;
+  border-color: rgb(209, 209, 221);
+}
 .mat-card#header {
   padding: 0;
 }
@@ -67,6 +72,7 @@
   border-top-right-radius: 12px!important;
 }
  .padding-r{
-  padding-left: 20px; 
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
